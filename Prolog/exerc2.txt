@@ -1,0 +1,11 @@
+%concatenar duas lsitas quaisquer concatenar(List1,List2,List_concat).
+
+@concat([], List, List).
+@concat([Head|Tail], L, [Head|Tail1]) :- concatenar(Tail, List, Tail1).
+
+
+
+
+
+
+
